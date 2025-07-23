@@ -1,8 +1,8 @@
-# 🤖 ChatBot Project
+#  ChatBot Project
 
 This is a simple, rule-based chatbot built using Python. It uses pattern matching to understand and respond to user inputs like greetings, time queries, and general conversation starter
 
-## 💡 Features
+##  Features
 
 - Responds to greetings like "hi", "hello", and "yo"
 - Shares the current time when asked
@@ -13,13 +13,13 @@ This is a simple, rule-based chatbot built using Python. It uses pattern matchin
 - Friendly fallback for unknown input
 
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - Python 3
 - `re` module (for pattern matching)
 - `datetime` module (for time-based replies)
 
-##🚀 How to Run
+##  How to Run
 
 1. Make sure Python is installed on your system
 2. Clone this repository or download the `chatbot.py` file
