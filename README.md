@@ -1,32 +1,72 @@
-#  ChatBot Project
-
-This is a simple, rule-based chatbot built using Python. It uses pattern matching to understand and respond to user inputs like greetings, time queries, and general conversation starter
-
-##  Features
-
-- Responds to greetings like "hi", "hello", and "yo"
-- Shares the current time when asked
-- Gives responses to weather-related questions (simulated)
-- Introduces itself when asked "who are you"
-- Handles goodbyes and exits gracefully
-- Smart pattern detection using Python’s `re` module
-- Friendly fallback for unknown input
+1. 🎮 Tic-Tac-Toe Game with AI
 
 
-##  Technologies Used
+A console-based Tic-Tac-Toe game where you play as 'X' against an AI opponent 'O'. The AI uses the Minimax algorithm to make optimal decisions every time.
 
-- Python 3
-- `re` module (for pattern matching)
-- `datetime` module (for time-based replies)
+Features:
 
-    How to Run
+Clean and simple board display
 
-1. Make sure Python is installed on your system
-2. Clone this repository or download the `chatbot.py` file
-3. Open a terminal and run:
+AI using recursive Minimax logic
+
+Win/draw detection
+
+Score tracking over multiple rounds
+
+User-friendly input validation
 
 
-TASK 1:CHATBOT WITH RULE-BASED
-CREATED BY:NIBSHAN JOVIN JOSEPH
-DATE:20-07-2025
-# CODSOFT
+
+2. 🤖 ChatBot
+   
+
+A lightweight rule-based chatbot that responds to greetings, time queries, weather-related keywords, identity questions, and farewells.
+
+Features:
+
+Natural language pattern recognition via re (regular expressions)
+
+Handles common phrases like:
+
+"What's the time?"
+
+"Hi there!"
+
+"Who are you?"
+
+Graceful exit with end or bye
+
+
+
+3. 🎬 Movie Recommendation System
+
+
+A mini movie recommender system using both genre similarity and user-based collaborative filtering.
+
+Features:
+
+Recommends movies similar in genre
+
+Suggests movies based on similar user preferences
+
+Uses pandas, sklearn's OneHotEncoder, and cosine_similarity
+
+Sample dataset of 5 movies and user ratings
+
+Simple text-based menu for interaction
+
+
+🧰 Technologies Used
+
+
+Python 3.x
+
+pandas
+
+sklearn (for one-hot encoding & similarity calculation)
+
+re (regular expressions)
+
+datetime (for chatbot time feature)
+
+#CODSOFT
